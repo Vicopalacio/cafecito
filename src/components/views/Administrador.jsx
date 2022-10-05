@@ -1,8 +1,20 @@
 import { Container, Table } from "react-bootstrap";
 import ItemProd from "./producto/ItemProd";
 import {Link} from 'react-router-dom';
+import { useEffect, useState } from "react";
+import { consultarApi } from "../helpers/queries";
+
 
 const Administrador = () => {
+  const [productos, setProductos] = useState([]);
+  
+  useEffect(() => {
+    consultarApi().then((laRespuesta)=>{
+      setProductos(laRespuesta)
+    })
+  }, [])
+  
+
     return (
         <>
         <Container>
@@ -23,7 +35,9 @@ const Administrador = () => {
       </tr>
       </thead>
       <tbody>
-        <ItemProd></ItemProd>
+        {
+          productos.map((producto)=> <ItemProd key={producto.id} producto={producto}></ItemProd>)
+        }
       </tbody>
     </Table>
         </Container>
