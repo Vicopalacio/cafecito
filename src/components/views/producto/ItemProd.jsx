@@ -10,7 +10,7 @@ const ItemProd = () => {
           <td>@mdo</td>
           <td>Salado</td>
           <td> <Link className='btn btn-warning' to='/administrar/editarprod'>Editar</Link> <br />
-          <Link className='btn btn-danger'>Borrar</Link></td>
+          <Link className='btn btn-danger mt-1'>Borrar</Link></td>
         </tr>
       </>
     );
