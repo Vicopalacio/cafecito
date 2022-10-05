@@ -14,7 +14,7 @@ const CardProd = () => {
           <Card.Body>
             <Card.Title>Sandwich</Card.Title>
             <Card.Text>Precio: $450.</Card.Text>
-            <Button variant="danger" as={Link} to='/detalleprod'>Ver más</Button>
+            <Button variant="danger" as={Link} to='/administrar/detalleprod'>Ver más</Button>
           </Card.Body>
         </Card>
       </Col>

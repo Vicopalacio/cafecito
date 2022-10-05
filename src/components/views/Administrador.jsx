@@ -1,13 +1,14 @@
-import { Container, Table, Button } from "react-bootstrap";
-import ItemProd from "./ItemProd";
+import { Container, Table } from "react-bootstrap";
+import ItemProd from "./producto/ItemProd";
+import {Link} from 'react-router-dom';
 
 const Administrador = () => {
     return (
         <>
         <Container>
-        <div className='wrap'>
+        <div className='d-flex justify-content-between align-items-center'>
         <h3 className="display-4 mt-5">Productos disponibles</h3>
-        <Button variant="primary">Agregar</Button>
+        <Link className='h-100 btn btn-primary' to='/administrar/crearprod'>Agregar</Link> 
         </div>
         <hr />
         <Table striped bordered hover responsive>

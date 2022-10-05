@@ -1,4 +1,4 @@
-import { Button } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 const ItemProd = () => {
     return (
@@ -9,8 +9,8 @@ const ItemProd = () => {
           <td>$450</td>
           <td>@mdo</td>
           <td>Salado</td>
-          <td> <Button variant="warning">Editar</Button> <br />
-          <Button variant="danger">Borrar</Button></td>
+          <td> <Link className='btn btn-warning' to='/administrar/editarprod'>Editar</Link> <br />
+          <Link className='btn btn-danger'>Borrar</Link></td>
         </tr>
       </>
     );

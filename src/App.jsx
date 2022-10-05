@@ -4,7 +4,7 @@ import Administrador from "./components/views/Administrador";
 import Error from "./components/views/Error";
 import Menu from "./components/common/Menu";
 import Footer from "./components/common/Footer";
-import DetalleProd from "./components/views/DetalleProd";
+import DetalleProd from "./components/views/producto/DetalleProd";
 import EditarProd from './components/views/producto/EditarProd';
 import CrearProd from './components/views/producto/CrearProd';
 
@@ -22,10 +22,10 @@ function App() {
           path="/administrar"
           element={<Administrador></Administrador>}
         ></Route>
+        <Route exact path="/administrar/detalleprod" element={<DetalleProd></DetalleProd>}></Route>
+        <Route exact path="/administrar/editarprod" element={<EditarProd></EditarProd>}></Route>
+        <Route exact path="/administrar/crearprod" element={<CrearProd></CrearProd>}></Route>
         <Route path="*" element={<Error></Error>}></Route>
-        <Route path="/detalleprod" element={<DetalleProd></DetalleProd>}></Route>
-        <Route path="/editarprod" element={<EditarProd></EditarProd>}></Route>
-        <Route path="/crearprod" element={<CrearProd></CrearProd>}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
