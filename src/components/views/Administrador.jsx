@@ -17,7 +17,7 @@ const Administrador = () => {
 
     return (
         <>
-        <Container>
+        <Container className='mainSection'>
         <div className='d-flex justify-content-between align-items-center'>
         <h3 className="display-4 mt-5">Productos disponibles</h3>
         <Link className='h-100 btn btn-primary' to='/administrar/crearprod'>Agregar</Link> 

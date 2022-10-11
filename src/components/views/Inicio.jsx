@@ -3,7 +3,7 @@ import CardProd from "./producto/CardProd";
 
 const Inicio = () => {
     return (
-        <Container>
+        <Container className='mainSection'>
             <h3 className='display-4 text-center mt-5'>Bienvenidos</h3>
             <hr />
             <Row>

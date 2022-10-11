@@ -1,3 +1,4 @@
+import "./app.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Inicio from "./components/views/Inicio";
 import Administrador from "./components/views/Administrador";
@@ -23,7 +24,7 @@ function App() {
           element={<Administrador></Administrador>}
         ></Route>
         <Route exact path="/administrar/detalleprod" element={<DetalleProd></DetalleProd>}></Route>
-        <Route exact path="/administrar/editarprod" element={<EditarProd></EditarProd>}></Route>
+        <Route exact path="/administrar/editarprod/:id" element={<EditarProd></EditarProd>}></Route>
         <Route exact path="/administrar/crearprod" element={<CrearProd></CrearProd>}></Route>
         <Route path="*" element={<Error></Error>}></Route>
       </Routes>
