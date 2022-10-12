@@ -3,21 +3,21 @@
         {
             "nombreProducto":"café",
             "precio":300,
-            "categoria":"bebida caliente",
+            "categoria":"Bebida Caliente",
             "imagen":"https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "id":1
         },
         {
             "nombreProducto":"brownie",
             "precio":400,
-            "categoria":"dulce",
+            "categoria":"Dulce",
             "imagen":"https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "id":2
         },
         {
             "nombreProducto":"sandwich de jamon y queso",
             "precio":400,
-            "categoria":"salado",
+            "categoria":"Salado",
             "imagen":"https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "id":3
         }
