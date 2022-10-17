@@ -27,7 +27,7 @@ const ItemProd = ({producto, setProductos}) => {
           <td>${producto.precio}</td>
           <td>{producto.imagen}</td>
           <td>{producto.categoria}</td>
-          <td> <Link className='btn btn-warning' to={`/administrar/editarprod/:id`}>Editar</Link> <br />
+          <td> <Link className='btn btn-warning' to={`/administrar/editarprod/${producto.id}`}>Editar</Link> <br />
           <Button className='btn btn-danger mt-1' onClick={borrarProducto}>Borrar</Button></td>
         </tr>
       </>
