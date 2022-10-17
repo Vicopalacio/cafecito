@@ -8,6 +8,8 @@ import Footer from "./components/common/Footer";
 import DetalleProd from "./components/views/producto/DetalleProd";
 import EditarProd from './components/views/producto/EditarProd';
 import CrearProd from './components/views/producto/CrearProd';
+import Login from "./components/views/Login";
+import Registrar from './components/views/Registrar';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route exact path="/administrar/detalleprod" element={<DetalleProd></DetalleProd>}></Route>
         <Route exact path="/administrar/editarprod/:id" element={<EditarProd></EditarProd>}></Route>
         <Route exact path="/administrar/crearprod" element={<CrearProd></CrearProd>}></Route>
+        <Route exact path="/menu/login" element={<Login></Login>}></Route>
+        <Route exact path="/menu/registrar" element={<Registrar></Registrar>}></Route>
         <Route path="*" element={<Error></Error>}></Route>
       </Routes>
       <Footer></Footer>

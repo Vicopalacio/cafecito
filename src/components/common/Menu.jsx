@@ -1,5 +1,7 @@
 import { Navbar, Nav , Container } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
+import Login from "../views/Login";
+import Registrar from "../views/Registrar";
 
 const Menu = () => {
     return (
@@ -12,6 +14,8 @@ const Menu = () => {
           <Nav className="me-auto">
             <NavLink to="/" className={"nav-item nav-link"}>Inicio</NavLink>
             <NavLink to="/administrar" className={"nav-item nav-link"}>Administrador</NavLink>
+            <Login></Login>
+            <Registrar></Registrar>
           </Nav>
         </Navbar.Collapse>
       </Container>
