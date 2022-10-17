@@ -1,74 +1,11 @@
 {
   "productos": [
     {
-      "nombreProducto": "café",
-      "precio": 300,
-      "categoria": "Bebida Caliente",
-      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "id": 1
-    },
-    {
       "nombreProducto": "brownie",
       "precio": 400,
       "categoria": "Dulce",
       "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 2
-    },
-    {
-      "nombreProducto": "sandwich de jamon y queso",
-      "precio": 400,
-      "categoria": "Salado",
-      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "id": 3
-    },
-    {
-      "nombreProducto": "brownie 2",
-      "precio": 400,
-      "categoria": "Dulce",
-      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "id": 4
-    },
-    {
-      "nombreProducto": "brownie 2",
-      "precio": 400,
-      "categoria": "Dulce",
-      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "id": 5
-    },
-    {
-      "nombreProducto": "Cafe",
-      "precio": "$500",
-      "imagen": "https://pics.filmaffinity.com/the_simpsons-397676780-mmed.jpg",
-      "categoria": "Dulce",
-      "id": 6
-    },
-    {
-      "nombreProducto": "Medialuna",
-      "precio": "$50",
-      "imagen": "https://pics.filmaffinity.com/bojack_horseman-687229611-mmed.jpg",
-      "categoria": "Dulce",
-      "id": 7
-    },
-    {
-      "nombreProducto": "Medialuna",
-      "precio": "$50",
-      "imagen": "https://pics.filmaffinity.com/bojack_horseman-687229611-mmed.jpg",
-      "categoria": "Dulce",
-      "id": 8
-    },
-    {
-      "nombreProducto": "Medialuna",
-      "precio": "$50",
-      "imagen": "https://pics.k",
-      "categoria": "Dulce",
-      "id": 9
-    },
-    {
-      "nombreProducto": "Medialuna",
-      "precio": "$50",
-      "imagen": "https://pics.k",
-      "categoria": "Dulce",
-      "id": 10
     },
     {
       "nombreProducto": "Cafe",
@@ -78,25 +15,11 @@
       "id": 11
     },
     {
-      "nombreProducto": "Sandwich",
-      "precio": "$300",
-      "imagen": "https://pics.filmaffinity.com/the_simpsons-397676780-mmed.jpg",
-      "categoria": "Salado",
-      "id": 12
-    },
-    {
       "nombreProducto": "Torta de Hojaldre",
       "precio": "300",
       "imagen": "https://pics.filmaffinity.com/the_simpsons-397676780-mmed.jpg",
       "categoria": "Dulce",
       "id": 13
-    },
-    {
-      "nombreProducto": "cafe",
-      "precio": "100",
-      "imagen": "https://pics.filmaffinity.com/bojack_horseman-687229611-mmed.jpg",
-      "categoria": "Bebida Caliente",
-      "id": 14
     }
   ]
 }
