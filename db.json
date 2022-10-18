@@ -1,25 +1,25 @@
 {
   "productos": [
     {
-      "nombreProducto": "brownie",
-      "precio": 400,
+      "nombreProducto": "Cafe",
+      "precio": "250",
+      "imagen": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "categoria": "Bebida Caliente",
+      "id": 1
+    },
+    {
+      "nombreProducto": "Brownie",
+      "precio": "500",
+      "imagen": "https://images.pexels.com/photos/5386662/pexels-photo-5386662.jpeg?auto=compress&cs=tinysrgb&w=600",
       "categoria": "Dulce",
-      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 2
     },
     {
-      "nombreProducto": "Cafe",
-      "precio": "100",
-      "imagen": "https://pics.filmaffinity.com/bojack_horseman-687229611-mmed.jpg",
-      "categoria": "Bebida Caliente",
-      "id": 11
-    },
-    {
-      "nombreProducto": "Torta de Hojaldre",
-      "precio": "300",
-      "imagen": "https://pics.filmaffinity.com/the_simpsons-397676780-mmed.jpg",
-      "categoria": "Dulce",
-      "id": 13
+      "nombreProducto": "Sandwich",
+      "precio": "700",
+      "imagen": "https://images.pexels.com/photos/1630309/pexels-photo-1630309.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "categoria": "Salado",
+      "id": 3
     }
   ]
 }
