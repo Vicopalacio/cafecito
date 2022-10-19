@@ -25,7 +25,7 @@ function App() {
           path="/administrar"
           element={<Administrador></Administrador>}
         ></Route>
-        <Route exact path="/administrar/detalleprod" element={<DetalleProd></DetalleProd>}></Route>
+        <Route exact path="/administrar/detalleprod/:id" element={<DetalleProd></DetalleProd>}></Route>
         <Route exact path="/administrar/editarprod/:id" element={<EditarProd></EditarProd>}></Route>
         <Route exact path="/administrar/crearprod" element={<CrearProd></CrearProd>}></Route>
         <Route exact path="/menu/login" element={<Login></Login>}></Route>

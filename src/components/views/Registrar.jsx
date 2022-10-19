@@ -2,6 +2,7 @@ import { Button, Modal, Form } from "react-bootstrap";
 import { useState } from "react";
 import { useForm } from 'react-hook-form';
 import { NavLink } from "react-router-dom";
+import { crearUsuariosAPI } from '../helpers/queries';
 
 const Registrar = () => {
   const [show, setShow] = useState(false);
@@ -13,10 +14,15 @@ const Registrar = () => {
     register,
     handleSubmit,
     formState:{errors},
+    reset
   }= useForm();
 
   const onSubmit = (data)=>{
-    console.log(data);
+    crearUsuariosAPI(data).then((laRespuesta)=>{
+      console.log(data);
+      reset();
+      handleClose();
+    });
   }
   return (
     <>
@@ -59,7 +65,7 @@ const Registrar = () => {
                     message:'La cantidad minima de caracteres es de 3',
                 },
                 maxLength:{
-                    value:15,
+                    value:30,
                     message:'La cantidad maxima de caracteres es de 15',
                 }
               })}

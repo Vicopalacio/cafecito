@@ -1,8 +1,10 @@
 const URL = process.env.REACT_APP_API_CAFECITO;
+const URLusuarios = process.env.REACT_APP_API_USUARIOS;
 //peticion GET para obtener todos los productos
 //peticion POST crear un nuevo producto, en los login tambien los puedo usar
 //peticion PUT sirve para modificar un producto
 //peticion DELETE sirve para borrar
+console.log(URLusuarios)
 
 export const consultarApi = async()=>{
     try{
@@ -49,11 +51,28 @@ export const obtenerProductoApi = async(id)=>{
     try{
         // console.log(URL)
         const respuesta = await fetch(URL+'/'+id);
-        const producto ={
+        const producto = {
             dato: await respuesta.json(),
             status: respuesta.status
         }
         return producto;
+    }catch(error){
+        console.log(error)
+        return false;
+    }
+}
+
+export const crearUsuariosAPI = async(usuario)=>{
+    try{
+        //peticion POST
+        const respuesta = await fetch(URLusuarios, {
+            method: 'POST',
+            headers: {
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(usuario)
+        });
+        return respuesta;
     }catch(error){
         console.log(error)
         return false;

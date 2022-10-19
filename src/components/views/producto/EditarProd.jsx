@@ -15,7 +15,7 @@ const EditarProd = () => {
         setValue('precio',laRespuesta.dato.precio);
         setValue('imagen',laRespuesta.dato.imagen);
         setValue('categoria',laRespuesta.dato.categoria);
-        //cargar los datos al formulario del priducto
+        //cargar los datos al formulario del producto
       }
     })
   }, []);
