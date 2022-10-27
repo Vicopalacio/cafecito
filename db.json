@@ -1,8 +1,8 @@
 {
   "productos": [
     {
-      "nombreProducto": "Pastafrola",
-      "precio": "100",
+      "nombreProducto": "Pastafrola de DDL",
+      "precio": "130",
       "imagen": "https://media.istockphoto.com/photos/homemade-pastafrolatart-filled-with-quince-and-apple-jelly-recipe-picture-id1430664670?b=1&k=20&m=1430664670&s=612x612&w=0&h=gI0sBFTHOtlJoB9gMAUHt3rmHzEAoVMrY11KBN8sC-A=",
       "categoria": "Dulce",
       "id": 2
@@ -15,27 +15,6 @@
       "email": "victoriapalaciof@gmail.com",
       "contrasenia": "Victoria1234?",
       "id": 1
-    },
-    {
-      "nombre": "Victoria",
-      "apellido": "Palacio Fernández",
-      "email": "victoriapalaciof@gmail.com",
-      "contrasenia": "Vicopp88///%",
-      "id": 2
-    },
-    {
-      "nombre": "Josefina",
-      "apellido": "Daoua",
-      "email": "jocky@gmail.com",
-      "contrasenia": "Jilis$%&555",
-      "id": 3
-    },
-    {
-      "nombre": "Victoria",
-      "apellido": "Palacio Fernández",
-      "email": "victoriapalaciof@gmail.com",
-      "contrasenia": "Jirafjfg%%%88",
-      "id": 4
     }
   ]
 }
