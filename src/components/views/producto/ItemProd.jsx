@@ -25,7 +25,7 @@ const ItemProd = ({ producto, setProductos }) => {
       })
       .then((result) => {
         if (result.isConfirmed) {
-          borrarProductoAPI(producto.id).then((laRespuesta) => {
+          borrarProductoAPI(producto._id).then((laRespuesta) => {
             if (laRespuesta.status === 200) {
               //cuando haya eliminado, busco todos los productos existentes en ese instante de tiempo
               consultarApi().then((respuesta) => {
@@ -54,7 +54,7 @@ const ItemProd = ({ producto, setProductos }) => {
   return (
     <>
       <tr>
-        <td>{producto.id}</td>
+        <td>{producto._id}</td>
         <td>{producto.nombreProducto}</td>
         <td>${producto.precio}</td>
         <td>{producto.imagen}</td>
@@ -63,7 +63,7 @@ const ItemProd = ({ producto, setProductos }) => {
           {" "}
           <Link
             className="btn btn-warning"
-            to={`/administrar/editarprod/${producto.id}`}
+            to={`/administrar/editarprod/${producto._id}`}
           >
             Editar
           </Link>{" "}

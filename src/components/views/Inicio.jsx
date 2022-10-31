@@ -21,7 +21,7 @@ const Inicio = () => {
         {
         verProd.map((producto) => (
           <CardProd
-            key={producto.id}
+            key={producto._id}
             producto={producto}
             verProd={verProd}
           ></CardProd>
