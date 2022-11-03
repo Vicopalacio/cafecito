@@ -4,7 +4,6 @@ const URLusuarios = process.env.REACT_APP_API_USUARIOS;
 //peticion POST crear un nuevo producto, en los login tambien los puedo usar
 //peticion PUT sirve para modificar un producto
 //peticion DELETE sirve para borrar
-console.log(URLusuarios)
 
 export const consultarApi = async()=>{
     try{

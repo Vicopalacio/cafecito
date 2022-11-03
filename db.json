@@ -15,6 +15,13 @@
       "email": "victoriapalaciof@gmail.com",
       "contrasenia": "Victoria1234?",
       "id": 1
+    },
+    {
+      "nombre": "Victoria",
+      "apellido": "Palacio Fernández",
+      "email": "victoriapalaciof@gmail.com",
+      "contrasenia": "Victoria88*",
+      "id": 2
     }
   ]
 }
